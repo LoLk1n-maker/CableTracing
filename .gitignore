@@ -1,0 +1,49 @@
+## Результаты сборки .NET
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+publish/
+*.dll
+*.exe
+*.pdb
+*.cache
+
+## Файлы Visual Studio / Rider / VS Code
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.csproj.user
+
+## NuGet
+*.nupkg
+packages/
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+
+## Локальные БД, создаваемые программой при сохранении проекта.
+## Примеры баз в examples/ публикуются — они исключены из игнора ниже.
+*.db
+*.db-journal
+*.sqlite
+!examples/*.db
+
+## Экспорт из программы
+*.csv
+protocol*.txt
+
+## Прочий мусор
+Thumbs.db
+desktop.ini
+.DS_Store
+*.log
+*.tmp
+~$*
